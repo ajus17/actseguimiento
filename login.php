@@ -52,6 +52,10 @@
                     </div>
                     <!-- /.col -->
                 </div>
+                <br>
+                <div class="row2 text-lg-center">
+                    <span class="form-text text-danger"><?php  if(isset($_GET['error'])){ echo $_GET['error']; } ?></span>
+                </div>
             </form>
         </div>
         <!-- /.card-body -->
